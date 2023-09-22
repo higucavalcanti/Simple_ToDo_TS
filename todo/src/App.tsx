@@ -17,7 +17,7 @@ const App = () => {
           {/* Área de adicionar nova Tarefa */}
 
           {list.map((item, index)=>(
-            <div>{item.name}</div>
+            <ListItem />
           ))}
 
         </C.Area>
