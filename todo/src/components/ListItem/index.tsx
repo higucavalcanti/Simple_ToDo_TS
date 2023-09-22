@@ -1,5 +1,9 @@
+import * as C from './styles';
+
 export const ListItem = () => {
     return (
-        <div>Miauuuuu</div>
+        <C.Container>
+            Miauuu
+        </C.Container>
     );
 }
