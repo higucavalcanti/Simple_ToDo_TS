@@ -9,12 +9,12 @@ export const Container = styled.div`
     align-items: center;
 
     input {
-        width: 25px;
-        heigth: 25px;
+        width: 30px;
+        heigth: 30px;
         margin-right: 5px;
-    }
+    };
 
     label {
         color: #CCC;
-    }
+    };
 `;
