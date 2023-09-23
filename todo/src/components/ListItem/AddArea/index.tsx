@@ -1,8 +1,9 @@
 
+import { useState } from 'react';
 import * as C from './styles';
 
 export const AddArea = () => {
-    const [inputText, setInputtext] = useState('');
+    const [inputText, setInputText] = useState('');
 
     return (
         <C.Container>
@@ -10,6 +11,8 @@ export const AddArea = () => {
             <input
                 type="text"
                 placeholder="Adicione uma terefa"
+                value={inputText}
+                onChange={e=>setInputText(e.target.value)}
             />
         </C.Container>
     );
